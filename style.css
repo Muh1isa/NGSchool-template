@@ -1,0 +1,424 @@
+body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.header-top-box {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E1E1E;
+    top: 5px;
+    left: 170px;
+}
+
+.header-top-box-btn {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #BC0A6A;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 35px;
+    top: 13px;
+    right: 170px;
+}
+
+/* - nav start - */
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #1E1E1E;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.nav-list-main {
+    font-size: 16px;
+    font-weight: 700;
+    color: #BC0A6A;
+    margin-right: 30px;
+}
+
+.nav-list-item {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+    margin-right: 30px;
+}
+
+.nav-btn {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BC0A6A;
+    background: none;
+    border: 1px solid #BC0A6A;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nav-box {
+    margin-left: 40px;
+}
+
+.phone-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.nav-icons {
+    margin-top: -10px;
+}
+/* - nav end - */
+
+/* - main start - */
+.main-boxes {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.main-left-box {
+    width: 460px;
+    height: 435px;
+    background-color: #F8F8F8;
+    border-radius: 40px;
+    padding: 10px 0 0 20px;
+    margin-right: 30px ;
+}
+
+.main-left-box-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.main-left-box-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1E1E1E;
+    opacity: 0.8;
+}
+
+/* - section start - */
+.section {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.section-box {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.section-img {
+    width: 60px;
+    height: 60px;
+}
+
+.section-box-texts {
+    margin-left: 10px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section2 {
+    margin-top: 70px;
+}
+
+.section2-title {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section2-images {
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    margin-left: 160px;
+}
+
+.section2-box {
+    position: relative;
+    width: 23%;
+    height: 100%;
+    background-color: #BC0A6A;
+    border-radius: 10px;
+}
+
+.section2-box-title {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    top: 160px;
+    left: 30px;
+}
+
+.section2-box-text {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    top: 200px;
+    left: 30px;
+}
+
+.section2-btn {
+    position: absolute;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #BC0A6A;
+    background-color: #fff;
+    border: none;
+    left: 30px;
+    bottom: 20px;
+}
+
+.image1 {
+    position: absolute;
+    width: 23%;
+    height: 65%;
+    top: 0;
+    left: 25%;
+}
+
+.image2 {
+    position: absolute;
+    width: 23%;
+    height: 35%;
+    bottom: -8px;
+    left: 25%;
+}
+
+.image3 {
+    position: absolute;
+    width: 23%;
+    height: 35%;
+    top: -9px;
+    left: 50%;
+}
+
+.image4 {
+    position: absolute;
+    width: 23%;
+    height: 65%;
+    bottom: 0;
+    left: 50%;
+}
+
+.image5 {
+    position: absolute;
+    width: 23%;
+    height: 65%;
+    top: 0;
+    left: 75%;
+}
+
+.image6 {
+    position: absolute;
+    width: 23%;
+    height: 35%;
+    bottom: -9px;
+    left: 75%;
+}
+
+.section3 {
+    margin-top: 70px;
+}
+
+.section3-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.left-box {
+    margin-right: 50px;
+}
+
+.right-box {
+    margin-left: 50px;
+}
+
+
+.section3-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section3-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.8;
+}
+
+.section4 {
+    margin-top: 70px;
+}
+    
+.section4-title {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section4-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.section4-box {
+    width: 500px;
+    height: 370px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 20px 0 0 30px;
+}
+
+.section4-w {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.section4-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 70px;
+}
+
+.section5 {
+    margin-top: 80px;
+}
+
+.section5-title {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section5-images {
+    display: flex;
+    justify-content: center;
+}
+
+.sertificate-img {
+    margin-right: 20px;
+}
+/* - main end - */
+
+/* - footer start - */
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #1E1E1E;
+    margin-top: 90px;
+}
+
+.footer-left {
+    margin: 50px 0 0 100px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    margin-right: 80px;
+    opacity: 0.9;
+}
+
+.footer-list {
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+    color: #fff;
+    margin: 70px 0 0 40px;
+    opacity: 0.9;
+}
+
+.footer-list li {
+    margin-bottom: 20px;
+}
+
+.footer-right {
+    margin: 60px 0 0 190px;
+}
+
+.phone-num {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.email {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.9;
+}
